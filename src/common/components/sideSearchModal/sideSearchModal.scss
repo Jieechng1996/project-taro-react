@@ -1,0 +1,20 @@
+.at-input--disabled{
+    opacity: 1;
+}
+.self-picker{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    padding: 0px 10px;
+}
+.footer{
+    display: flex;
+    padding: 5px;
+    >View{
+        flex: 1;
+    }
+    >View:nth-of-type(1){
+        margin-right: 5px;
+    }
+}

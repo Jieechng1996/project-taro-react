@@ -1,0 +1,229 @@
+page {
+  height: 100%
+}
+
+.ts {
+  transition: all 0.5s;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 390px 160px;
+  box-sizing: border-box;
+  transition: all 1s;
+}
+
+.login-container {
+  height: 100%;
+  box-sizing: border-box;
+  transition: all 1s;
+}
+
+.bg-image {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-size: 100% 100%;
+  bottom: 0rpx;
+  z-index: -1;
+  background-color: #0056b3;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-warp {
+  display: flex;
+}
+
+.f1 {
+  flex: 1;
+}
+
+.w100p {
+  width: 100%;
+}
+
+.h50p {
+  height: 50%;
+}
+
+.h100p {
+  height: 100%;
+}
+
+.mt1 {
+  margin-top: 1rem;
+}
+
+.mt2 {
+  margin-top: 2rem;
+}
+
+.mt3 {
+  margin-top: 3rem;
+}
+
+.mt5 {
+  margin-top: 5rem;
+}
+
+.mw110 {
+  min-width: 110rpx;
+}
+
+.btn {
+  border-radius: 10px;
+}
+
+.mh4 {
+  min-height: 4rem;
+}
+
+.iconTitleSize {
+  font-size: 0.8rem;
+}
+
+.p1 {
+  padding: 1rem;
+}
+
+.p2 {
+  padding: 2rem;
+}
+
+.p3 {
+  padding: 3rem;
+}
+
+.pl1 {
+  padding-left: 1rem;
+}
+.pb1{
+  padding-bottom: 1rem;
+}
+
+.bgwhite {
+  background-color: #fff;
+}
+
+.bgGrey {
+  background-color: #F2F2F2;
+}
+
+.colorBlue {
+  color: #0F347E;
+}
+
+.w2 {
+  width: 2rem;
+}
+
+.w3 {
+  width: 3rem;
+}
+
+.w4 {
+  width: 4rem;
+}
+
+.w6 {
+  width: 6rem;
+}
+
+.w9 {
+  width: 9rem;
+}
+
+.w10 {
+  width: 10rem;
+}
+
+.w11 {
+  width: 11rem;
+}
+
+.w13 {
+  width: 13rem;
+}
+
+.w14 {
+  width: 14rem;
+}
+
+.w16 {
+  width: 16rem;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  display: block
+}
+
+.pr1 {
+  padding-right: 1rem;
+}
+
+.pt1 {
+  padding-top: 1rem;
+}
+
+.pb0 {
+  padding-bottom: 0rpx;
+}
+
+.circle {
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 130rpx;
+  text-align: center;
+  line-height: 130rpx;
+  color: #fff;
+}
+
+.circle-style-1 {
+  background: #68a3e9;
+  border: #c0d9f7 solid 12rpx;
+  box-shadow: 0 6rpx 10rpx #68a2e9ce;
+}
+
+.circle-style-2 {
+  background: #fa851e;
+  border: #ffcca1 solid 12rpx;
+  box-shadow: 0 6rpx 10rpxx #fa851ece;
+}
+
+.circle-style-3 {
+  background: #4384f4;
+  border: #c0d9f7 solid 12rpx;
+  box-shadow: 0 6rpx 10rpx #8ac4d0ce;
+}
+
+.circle-style-11 {
+  background: #ccc;
+  border: 12rpx solid #e4e6e7;
+  box-shadow: 0 6rpx 10rpx #cccccc63
+}
+
+.red {
+  color: red;
+}
+
+.link {
+  color: #009DD9;
+}
+
+.urlToQrcode {
+  position: fixed;
+  left: -100%;
+  width: 200px;
+  height: 200px;
+}
